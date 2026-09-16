@@ -1,4 +1,4 @@
-console.log("================= Begin of assignment 02 =================\n");
+console.log("================= Begin of assignment 02 - Chuẩn hóa tên người dùng =================\n");
 
 // 1. Khai báo chuỗi tên cần chuẩn hóa (thay đổi giá trị để test)
 let fullName = " ngUYen vaN a ";
@@ -18,8 +18,8 @@ function normalizeName(fullName) {
 }
 
 // 3. Hiển thị kết quả
-let result = normalizeName(fullName);
+let res02 = normalizeName(fullName);
 console.log(`fullName = "${fullName}"`);
-console.log(`Kết quả: "${result}"`);
+console.log(`Kết quả: "${res02}"`);
 
 console.log("\n================= End of assignment 02 =================");

@@ -1,4 +1,4 @@
-console.log("================= Begin of assignment 01 =================\n");
+console.log("================= Begin of assignment 01 - Kiểm tra số nguyên tố =================\n");
 
 // 1. Khai báo số nguyên cần kiểm tra (thay đổi giá trị để test)
 let n = 7;
