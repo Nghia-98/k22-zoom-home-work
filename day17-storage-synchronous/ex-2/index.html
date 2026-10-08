@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../../images/favicon_f8.edu.vn.png" />
+    <title>Bài 2: Ghi nhớ thông tin khách hàng</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen p-6">
+
+    <div class="max-w-xl mx-auto space-y-6">
+        <div class="bg-white rounded-xl shadow-md p-6 text-center">
+            <h1 class="text-2xl font-bold text-gray-800">Bài 2: Ghi nhớ thông tin khách hàng</h1>
+            <a href="../index.html" class="text-blue-600 hover:text-blue-800 underline text-sm">&larr; Về trang Buổi 17</a>
+        </div>
+
+        <form id="checkout-form" class="bg-white rounded-xl shadow-md p-6 space-y-4">
+            <h2 class="font-semibold text-lg text-gray-800">Checkout</h2>
+
+            <div>
+                <label for="full-name" class="block text-sm text-gray-600 mb-1">Họ tên</label>
+                <input
+                    id="full-name" name="fullName" type="text" autocomplete="off"
+                    class="w-full border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Nguyễn Văn A"
+                />
+            </div>
+
+            <div>
+                <label for="phone" class="block text-sm text-gray-600 mb-1">Số điện thoại</label>
+                <input
+                    id="phone" name="phone" type="tel" autocomplete="off"
+                    class="w-full border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="0901234567"
+                />
+            </div>
+
+            <div>
+                <label for="email" class="block text-sm text-gray-600 mb-1">Email</label>
+                <input
+                    id="email" name="email" type="email" autocomplete="off"
+                    class="w-full border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="email@example.com"
+                />
+            </div>
+
+            <div>
+                <label for="address" class="block text-sm text-gray-600 mb-1">Địa chỉ nhận hàng</label>
+                <textarea
+                    id="address" name="address" rows="3" autocomplete="off"
+                    class="w-full border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Số nhà, đường, phường/xã, quận/huyện, tỉnh/thành"
+                ></textarea>
+            </div>
+
+            <div class="flex items-center gap-2">
+                <input id="remember" name="remember" type="checkbox" class="w-4 h-4" />
+                <label for="remember" class="text-sm text-gray-700">Ghi nhớ thông tin cho lần sau</label>
+            </div>
+
+            <p id="save-notice" class="text-sm text-green-600 hidden">Đã xóa thông tin đã lưu.</p>
+
+            <button
+                type="button" id="clear-btn"
+                class="w-full border border-red-500 text-red-500 hover:bg-red-50 rounded-md py-2 text-sm font-medium"
+            >
+                Xóa thông tin đã lưu
+            </button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
