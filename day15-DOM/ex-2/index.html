@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../../images/favicon_f8.edu.vn.png" />
+    <title>Bài 2: Ẩn/Hiện mật khẩu</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+
+    <div class="max-w-sm w-full bg-white rounded-xl shadow-md p-6 space-y-4">
+        <a href="../index.html" class="text-blue-600 hover:text-blue-800 underline text-sm">&larr; Về trang Buổi 15</a>
+        <h1 class="text-xl font-bold text-gray-800">Bài 2: Ẩn/Hiện mật khẩu</h1>
+
+        <form class="space-y-2">
+            <label for="password" class="block text-sm text-gray-600">Mật khẩu</label>
+            <div class="flex gap-2">
+                <input
+                    id="password" type="password" autocomplete="off"
+                    class="flex-1 border rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Nhập mật khẩu"
+                />
+                <button
+                    id="toggle-password-btn" type="button"
+                    class="shrink-0 border rounded-md px-4 py-2 text-sm text-gray-700 hover:bg-gray-50"
+                >
+                    Hiện
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

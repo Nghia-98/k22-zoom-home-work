@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="../../images/favicon_f8.edu.vn.png" />
+    <title>Bài 3: Thay đổi ảnh sản phẩm</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .thumbnail {
+            border: 3px solid transparent;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .thumbnail.active {
+            border-color: #2563eb;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+
+    <div class="max-w-sm w-full bg-white rounded-xl shadow-md p-6 space-y-4 text-center">
+        <a href="../index.html" class="text-blue-600 hover:text-blue-800 underline text-sm">&larr; Về trang Buổi 15</a>
+        <h1 class="text-xl font-bold text-gray-800">Bài 3: Thay đổi ảnh sản phẩm</h1>
+
+        <img
+            id="main-image"
+            src="https://picsum.photos/seed/sneaker-1/400/400"
+            alt="Giày sneaker trắng - góc nhìn 1"
+            class="w-full h-64 object-cover rounded-lg"
+        />
+
+        <div class="flex justify-center gap-3">
+            <img
+                src="https://picsum.photos/seed/sneaker-1/120/120"
+                alt="Giày sneaker trắng - góc nhìn 1"
+                class="thumbnail active w-20 h-20 object-cover"
+            />
+            <img
+                src="https://picsum.photos/seed/sneaker-2/120/120"
+                alt="Giày sneaker trắng - góc nhìn 2"
+                class="thumbnail w-20 h-20 object-cover"
+            />
+            <img
+                src="https://picsum.photos/seed/sneaker-3/120/120"
+                alt="Giày sneaker trắng - góc nhìn 3"
+                class="thumbnail w-20 h-20 object-cover"
+            />
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
