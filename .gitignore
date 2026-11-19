@@ -1,6 +1,7 @@
 # Dependencies
 **/node_modules
 CLAUDE.md
+.claude
 # OS / editor junk
 .DS_Store
 *.log
