@@ -1,3 +1,6 @@
 [submodule "day-21-react-router"]
 	path = day-21-react-router
 	url = git@github.com-personal2:Nghia-98/k22-day21-react-router.git
+[submodule "day-22-react-ecommerce-hooks"]
+	path = day-22-react-ecommerce-hooks
+	url = git@github.com-personal2:Nghia-98/k22-day22-react-ecommerce-hooks.git
