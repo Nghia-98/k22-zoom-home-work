@@ -3,7 +3,8 @@
 Monorepo bài tập cá nhân cho khoá F8 K22 Fullstack Zoom. Mỗi thư mục `dayNN-*`
 hoặc `day-NN-*` là bài tập của một buổi học. Xem toàn bộ danh sách buổi học
 dạng dashboard tại [index.html](index.html) (mở trực tiếp file này trong
-browser).
+browser), hoặc bản đã deploy tại
+[https://nghia-98.github.io/k22-zoom-home-work/](https://nghia-98.github.io/k22-zoom-home-work/).
 
 ## Cấu trúc thư mục
 
