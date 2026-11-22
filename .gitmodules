@@ -4,3 +4,6 @@
 [submodule "day-22-react-ecommerce-hooks"]
 	path = day-22-react-ecommerce-hooks
 	url = https://github.com/Nghia-98/k22-day22-react-ecommerce-hooks.git
+[submodule "day-23-react-hooks-notes"]
+	path = day-23-react-hooks-notes
+	url = https://github.com/Nghia-98/k22-day23-react-hooks-notes.git
