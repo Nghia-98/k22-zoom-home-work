@@ -7,3 +7,6 @@
 [submodule "day-23-react-hooks-notes"]
 	path = day-23-react-hooks-notes
 	url = https://github.com/Nghia-98/k22-day23-react-hooks-notes.git
+[submodule "day-24-zustand-react-query"]
+	path = day-24-zustand-react-query
+	url = https://github.com/Nghia-98/k22-day24-zustand-react-query.git
